@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main ()
+{
+    printf("Enter value of a :");
+    float a;
+    scanf("%f",&a);
+    printf("Enter value of b :");
+    float b;
+    scanf("%f",&b);
+    printf("Enter value of c :");
+    float c;
+    scanf("%f",&c);
+
+    float d = (a+b+c)*(a+b+c);
+    printf("Sum of Square of two number is : %f",d);
+
+    return 0;
+}
