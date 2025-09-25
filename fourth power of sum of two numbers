@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main ()
+{
+    printf("Enter value of a :");
+    float a;
+    scanf("%f",&a);
+    printf("Enter value of b :");
+    float b;
+    scanf("%f",&b);
+
+    float c = (a+b)*(a+b)*(a+b)*(a+b);
+    printf("Cube of Sum of two number is : %f",c);
+
+    return 0;
+}
